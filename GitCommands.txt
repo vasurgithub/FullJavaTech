@@ -20,3 +20,4 @@ git commit -m "Files to be Commited to Local Staging Area"
 Pushing into Remote (Github):
 git push -u remotename branchname
 git push -u fulljavatech javatech
+git push -u -f fulljavatech javatech
