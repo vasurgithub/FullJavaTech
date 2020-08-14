@@ -1,0 +1,22 @@
+GIT Commands Used:
+Remote:
+git remote
+git remote show origin
+git remote -v
+git remote add javatech https://github.com/vasurgithub/JavaTechnolgoies.git
+
+Branch:
+git branch
+*master
+git branch brnanchname
+git branch javatech
+git checkout branch
+git checkout javatech
+
+Adding and commiting files to staging area:
+git add .
+git commit -m "Files to be Commited to Local Staging Area"
+
+Pushing into Remote (Github):
+git push -u remotename branchname
+git push -u fulljavatech javatech
