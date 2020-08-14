@@ -22,6 +22,7 @@ git push -u remotename branchname
 git push -u fulljavatech javatech
 git push -u -f fulljavatech javatech
 
+Deleting files from Remote:
 https://www.thetopsites.net/article/58708742.shtml
 If you want to delete a file from remote only
 git rm --cached 'SpringTools.md'
