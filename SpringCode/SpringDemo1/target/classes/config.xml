@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean id="flightBean" class="com.ravada.SpringDemo1.FlightBean">
+     <constructor-arg name="source" value="Hyderabad"/>
+     <constructor-arg name="destination" value="Bangalore"/>
+     <constructor-arg name="price" value="5090.00"/>     
+ </bean>
+
+</beans>
+
